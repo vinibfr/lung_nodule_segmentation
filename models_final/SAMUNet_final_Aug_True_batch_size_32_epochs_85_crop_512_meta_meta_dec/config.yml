@@ -1,0 +1,15 @@
+accumulation_steps: 1
+augmentation: true
+batch_size: 32
+channels: 1
+early_stopping: 60
+epochs: 85
+lr: 0.0001
+momentum: 0.9
+name: SAMUNet
+nesterov: false
+num_workers: 14
+optimizer: Adam
+smr: 1.0e-05
+tensorboard: true
+weight_decay: 0.0001
